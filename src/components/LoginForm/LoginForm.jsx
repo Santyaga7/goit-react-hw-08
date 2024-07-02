@@ -24,7 +24,7 @@ export default function LoginForm() {
   };
   return (
     <div>
-      <h2>Login form</h2>
+      <h2>Login</h2>
       <Formik
         initialValues={initialValue}
         onSubmit={handleSumbit}
@@ -46,7 +46,7 @@ export default function LoginForm() {
             </div>
           </label>
           <div>
-            <button type="submit">submit</button>
+            <button type="submit">Submit</button>
           </div>
         </Form>
       </Formik>
